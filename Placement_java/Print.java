@@ -1,17 +1,19 @@
-class papa{
-    public void show2(){
-        System.out.println("hello papa");
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class papa {
+    public void pen() {
+       System.out.println("inside the hel method, pen method ");
     }
-}
-class child extends papa{
-    public void show2(){
-        System.out.println("hello  child");
+ 
+    public void pencil() {
+       System.out.println("inside the hel method, pencil method ");
     }
-}
-class Print{
-    public static void main(String[] args){
-        System.out.println("hello world");
-        papa ch = new child();
-        ch.show2();
+ 
+    static void papa1() {
+       System.out.println("inside the hel method, pen method ");
     }
-}
+ 
+    public static void main(String[] var0) {
+       System.out.println("Jai Shree Ram ");
+       papa1();
+    }
+ }
